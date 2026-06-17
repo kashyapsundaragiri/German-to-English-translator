@@ -1,0 +1,121 @@
+# =========================
+
+# Core Jupyter / Notebook
+
+# =========================
+
+ipykernel==6.29.5
+notebook==7.2.2
+jupyterlab==4.2.5
+
+# =========================
+
+# LangChain Ecosystem (Krish-compatible)
+
+# =========================
+
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-community==0.3.26
+langchain-text-splitters==0.3.8
+langchain-openai==0.3.28
+langchain-huggingface==0.1.2
+langchain-chroma==0.2.0
+langchain-groq==0.2.3
+
+# =========================
+
+# LLM Providers
+
+# =========================
+
+openai==1.99.9
+tiktoken==0.8.0
+groq==0.13.1
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+python-dotenv==1.0.1
+
+# =========================
+
+# Document Processing
+
+# =========================
+
+pypdf==5.9.0
+pymupdf==1.24.14
+unstructured==0.16.12
+beautifulsoup4==4.12.3
+bs4==0.0.2
+youtube_transcript_api==0.6.2
+pytube==15.0.0
+
+# =========================
+
+# Embeddings / ML
+
+# =========================
+
+sentence-transformers==3.0.1
+transformers==4.44.2
+huggingface_hub==0.24.6
+numpy==1.26.4
+pandas==2.2.3
+
+# =========================
+
+# Vector Databases
+
+# =========================
+
+chromadb==0.5.23
+faiss-cpu==1.8.0.post1
+duckdb==1.1.3
+
+# =========================
+
+# Search / Utilities
+
+# =========================
+
+arxiv==1.4.8
+wikipedia==1.4.0
+duckduckgo_search==5.3.1b1
+validators==0.28.1
+numexpr==2.10.1
+
+# =========================
+
+# Database
+
+# =========================
+
+mysql-connector-python==9.0.0
+SQLAlchemy==2.0.36
+
+# =========================
+
+# Networking
+
+# =========================
+
+requests==2.32.3
+
+# =========================
+
+# Validation
+
+# =========================
+
+pydantic==2.10.6
+
+fastapi==0.115.6
+uvicorn==0.34.0
+
+langserve==0.3.1
+sse-starlette==2.1.3
